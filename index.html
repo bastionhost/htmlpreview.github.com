@@ -2,7 +2,7 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<title>GitHub &amp; BitBucket HTML Preview</title>
+	<title>GitHub &amp; BitBucket HTML 预览</title>
 	<style>
 	body {
 		font: 12px 'Helvetica Neue', Helvetica, Arial, freesans, clean, sans-serif;
@@ -33,14 +33,14 @@
 </head>
 <body>
 	<form id="previewform" onsubmit="location.href='/?'+this.file.value;return false">
-		<h1>GitHub &amp; BitBucket HTML Preview</h1>
+		<h1>GitHub &amp; BitBucket HTML 预览</h1>
 		<p>
-			Enter URL of the HTML file to preview:
-			<input type="url" id="file" value="" placeholder="e.g. https://github.com/user/repo/blob/master/index.html" size="60" autofocus>
-			<input type="submit" value="Preview">
+			填写要预览的HTML文件地址：
+			<input type="url" id="file" value="" placeholder="https://raw.githubusercontent.com/iamsk/demo/master/index.html" size="70" autofocus>
+			<input type="submit" value="预览">
 		</p>
-		<p>or prepend to the URL: <code><strong>http://htmlpreview.github.io/?</strong>https://github.com/twbs/bootstrap/blob/gh-pages/2.3.2/index.html</code></p>
-		<p id="footer">Developed by <a href="https://github.com/niutech">niu tech</a> | Contribute on <a href="https://github.com/htmlpreview/htmlpreview.github.com">GitHub</a></p>
+		<p>或直接访问：<a href="http://view.301r.com/?https://raw.githubusercontent.com/bastionhost/bastionhost.github.io/master/index.html"><strong>http://view.301r.com/?</strong>https://raw.githubusercontent.com/bastionhost/bastionhost.github.io/master/index.html</a></p>
+		<footer id="footer">Developed by <a href="https://github.com/niutech">niu tech</a> | Contribute on <a href="https://github.com/htmlpreview/htmlpreview.github.com">GitHub</a></footer>
 	</form>
 	<script src="/htmlpreview.js"></script>
 </body>
