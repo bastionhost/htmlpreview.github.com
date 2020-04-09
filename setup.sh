@@ -1,0 +1,1 @@
+ln -s /data/www/htmlpreview.github.com/nginx.conf /etc/nginx/conf.d/htmlpreview.conf
